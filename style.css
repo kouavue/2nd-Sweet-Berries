@@ -1,18 +1,40 @@
 .navbar {
     display: grid;
     grid-template-columns: 10% 10% 70% 10%;
-    
+    padding: 0;
+    align-items: center;
     
   }
- //* .nav-items {
-    font-family: roboto;  
-    display: flex;
+ 
+.nav-item-1, .nav-item-2 {
+    font-family: roboto, sans-serif;
+    
   }
-  */
 
   .nav-title {
-
+    display: flex;
+    justify-content: center;
+    height: auto;
   }
   
+  .nav-title p {
+    text-align: center;
+  }
+
+  .nav-title-items {
+    display: grid;
+  }
+
+  .nav-title-1 {
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    bottom: -18px;
+  }
+  .nav-title-text {
+    font-size: 12px;
+    position: relative;
+    top: -18px;
+  } 
   
         
