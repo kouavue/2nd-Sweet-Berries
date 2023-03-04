@@ -1,14 +1,17 @@
 .navbar {
     display: grid;
+    grid-template-columns: 10% 10% 70% 10%;
     
-    justify-content: space-around;
+    
   }
-  .nav-items {
+ //* .nav-items {
     font-family: roboto;  
+    display: flex;
   }
+  */
+
   .nav-title {
 
-    justify-content: start;
   }
   
   
