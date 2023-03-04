@@ -1,3 +1,16 @@
-p {
-    color: green;
-}
+.navbar {
+    display: flex;
+    align-items: start; 
+    justify-content: space-around;
+  }
+  .nav-items {
+    font-family: roboto;  
+  }
+  .nav-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  
+        
