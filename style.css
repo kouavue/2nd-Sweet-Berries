@@ -92,7 +92,6 @@ html {
 }
 
 .card-1 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FEBD2F;
@@ -103,35 +102,44 @@ html {
 }
 
 .card-2 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
+  
 
 }
 .card-3 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
  
 }
 .card-4 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
 }
 
 .card-5 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
 }
 .card-6 {
-  border: 1px solid black;
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
 }
+
+.card-2 svg, .card-3 svg {
+  position: relative;
+  top: -200px;
+  left: 80px;
+}
+
+.card-4 svg, .card-5 svg, .card-6 svg{
+  position: relative;
+  top: -120px;
+  left: 160px;
+}
+
