@@ -51,6 +51,10 @@ html {
     background-color: black;
   }
         
+ body {
+  
+ }
+  
 .discover {
  display: flex;
  padding: 0 40px 40px 40px;
@@ -84,7 +88,7 @@ html {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 300px));
-  grid-template-rows: repeat(2, minmax(280px, 280px));
+  grid-template-rows: repeat(2, minmax(220px, 300px));
   row-gap: 10%;
   grid-column-gap: 0%;
   justify-content: space-evenly;
@@ -188,5 +192,8 @@ html {
 footer {
   background-color: #FEBD2F;
   width: 100%;
-
+  position: relative;
+  margin-top: 50px;
+  padding-top: 10px;
+  text-align: center;
 }
