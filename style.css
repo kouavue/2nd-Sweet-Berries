@@ -98,6 +98,8 @@ html {
   font-size: 40px;
   align-content: center;
   height: 100%;
+  font-family: roboto;
+  font-weight: bold;
   
 }
 
@@ -105,14 +107,18 @@ html {
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
-  
+  display: flex;  
+  flex-direction: column;
+
 
 }
 .card-3 {
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
- 
+  display: flex;  
+  flex-direction: column;
+
 }
 .card-4 {
   border-radius: 25px;
@@ -130,6 +136,31 @@ html {
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
 }
+
+.cards button {
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  width: 100px;
+  color: Black;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.card-2 p:first-child, .card-3 p:first-child, .card-4 p:first-child, .card-5 p:first-child, 
+.card-6 p:first-child {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 24px;
+}
+.card-2 p:nth-child(2), .card-3 p:nth-child(2), .card-4 p:nth-child(2), 
+.card-5 p:nth-child(2), .card-6 p:nth-child(2) {
+  font-family: sans-serif;
+  color: gray;
+  
+}
+
 
 .card-2 svg, .card-3 svg {
   position: relative;
