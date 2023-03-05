@@ -8,7 +8,7 @@
  
 .nav-item-1, .nav-item-2 {
     font-family: roboto, sans-serif;
-    justify-content: center;
+    text-align: center;
     
   }
 
@@ -37,5 +37,7 @@
     position: relative;
     top: -18px;
   } 
-  
+  .nav-button {
+    align-self: center;
+  }
         
