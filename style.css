@@ -41,3 +41,32 @@
     align-self: center;
   }
         
+.discover {
+ display: flex;
+ padding: 0 40px 0 40px;
+}
+.discover-texts {
+  display: grid;
+  padding-right: 160px;  
+}
+
+.discover-texts .text-1 {
+  font-family: 'Roboto' serif;
+  font-size: 64px; 
+  font-weight: medium;
+  
+}
+
+.discover-texts .text-2 {
+  font-size: 24;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+.cooking {
+  display: flex;
+  border-radius: 30px;
+  width: 45%;
+  height: 45%;
+  align-self: center;
+  
+}
