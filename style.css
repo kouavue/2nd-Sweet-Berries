@@ -171,7 +171,7 @@ html {
 .card-2 button, .card-3 button, .card-4 button, 
 .card-5 button, .card-6 button {
   position: relative;
-  top: 80px;
+  top: 70px;
 }
 
 .card-texts {
@@ -179,11 +179,14 @@ html {
   grid-template-rows: repeat(2, 80px);
 }
 
-/* .card-2 svg, .card-3 svg { } */
-
-/* .card-4 svg, .card-5 svg, .card-6 svg{
+.card-2 svg, .card-3 svg, .card-4 svg, .card-5 svg, .card-6 svg{ 
   position: relative;
-  top: -120px;
-  left: 160px;
-} */
+  top: -230px;
+  left: 200px;
+}
 
+footer {
+  background-color: #FEBD2F;
+  width: 100%;
+
+}
