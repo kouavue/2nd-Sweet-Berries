@@ -86,7 +86,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 300px));
   grid-template-rows: repeat(2, minmax(350px, 350px));
-  row-gap: 20%;
+  row-gap: 10%;
   grid-column-gap: 0%;
   justify-content: space-evenly;
 }
