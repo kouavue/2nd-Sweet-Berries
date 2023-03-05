@@ -6,7 +6,7 @@ html {
 .navbar {
     display: grid;
     grid-template-columns: 10% 10% 70% 10%;
-    padding: 0 20px 0 20px;
+    padding: 10px 20px 40px 20px;
     align-items: center;
     
   }
@@ -20,16 +20,15 @@ html {
   .nav-title {
     display: flex;
     justify-content: center;
-    height: auto;
   }
   
-  .nav-title p {
+  /* .nav-title p {
     text-align: center;
-  }
+  } */
 
-  .nav-title-items {
+  /* .nav-title-items {
     display: grid;
-  }
+  } */
 
   .nav-title-1 {
     font-weight: bold;
