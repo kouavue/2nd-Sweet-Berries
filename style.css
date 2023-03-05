@@ -85,7 +85,7 @@ html {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(auto, 300px));
-  grid-template-rows: repeat(2, minmax(350px, 350px));
+  grid-template-rows: repeat(2, minmax(280px, 280px));
   row-gap: 10%;
   grid-column-gap: 0%;
   justify-content: space-evenly;
@@ -124,17 +124,23 @@ html {
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
+  display: flex;  
+  flex-direction: column;
 }
 
 .card-5 {
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
+  display: flex;  
+  flex-direction: column;
 }
 .card-6 {
   border-radius: 25px;
   padding: 0 10% 0 5%;
   background-color: #FFFFFF;
+  display: flex;  
+  flex-direction: column;
 }
 
 .cards button {
@@ -158,19 +164,17 @@ html {
 .card-5 p:nth-child(2), .card-6 p:nth-child(2) {
   font-family: sans-serif;
   color: gray;
+  position: relative;
+  top: -10px;
   
 }
 
 
-.card-2 svg, .card-3 svg {
-  position: relative;
-  top: -200px;
-  left: 80px;
-}
+/* .card-2 svg, .card-3 svg { } */
 
-.card-4 svg, .card-5 svg, .card-6 svg{
+/* .card-4 svg, .card-5 svg, .card-6 svg{
   position: relative;
   top: -120px;
   left: 160px;
-}
+} */
 
