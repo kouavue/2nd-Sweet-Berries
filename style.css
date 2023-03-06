@@ -57,9 +57,10 @@ html {
     padding: 10px 0 10px 0;
   }
         
- body {
-  
- }
+  .vector {
+    display: none;
+  }
+    
   
 .discover {
  display: flex;
@@ -255,9 +256,10 @@ footer {
       padding: 10px 0 10px 0;
     }
           
-   body {
-    
-   }
+    .vector {
+      display: none;
+    }
+      
     
   .discover {
    display: flex;
@@ -406,7 +408,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 606px) {
+@media only screen and (min-width: 400px) and (max-width: 606px) {
   html {
     background-color: #F5F3EF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -455,10 +457,10 @@ footer {
       background-color: black;
       padding: 10px 0 10px 0;
     }
-          
-   body {
-    
-   }
+  
+  .vector {
+    display: none;
+  }
     
   .discover {
    display: flex;
@@ -471,7 +473,7 @@ footer {
   }
   
   .discover-texts .text-1 {
-    font-size: 64px; 
+    font-size: 48px; 
     font-weight: bold;
     font-family: roboto;
     
@@ -613,7 +615,7 @@ footer {
     background-color: #F5F3EF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
-  
+
   .navbar {
       display: grid;
       grid-template-columns: 100% 5%;
@@ -645,7 +647,7 @@ footer {
       top: -18px;  
     } 
     .nav-button {
-      
+      display: none;
       align-self: center;
       font-family: 'Roboto', sans-serif;
       border: 1px solid black;
@@ -655,6 +657,12 @@ footer {
       padding: 10px 0 10px 0;
     }
     
+    .vector {
+      border: none;
+      position: relative;
+      right: 10px;
+    }
+
   .discover {
    display: flex;
    flex-direction: column;
@@ -666,7 +674,7 @@ footer {
   }
   
   .discover-texts .text-1 {
-    font-size: 64px; 
+    font-size: 40px; 
     font-weight: bold;
     font-family: roboto;
     
@@ -680,7 +688,7 @@ footer {
   .cooking {
     display: flex;
     border-radius: 30px;
-    width: 80%;
+    width: 100%;
     height: auto;
     align-self: center;
     
