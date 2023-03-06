@@ -21,6 +21,10 @@ html {
     
   }
 
+.courses, .about {
+  text-decoration: none;
+}
+
   .nav-title {
     display: flex;
     justify-content: center;
@@ -224,10 +228,13 @@ footer {
       font-family: roboto, sans-serif;
       text-align: center;
       font-weight: bold;
-      font-size: 11px;
-      
+      font-size: 11px;      
     }
   
+    .courses, .about {
+      text-decoration: none;
+    }
+
     .nav-title {
       display: flex;
       justify-content: center;
@@ -426,8 +433,11 @@ footer {
       font-family: roboto, sans-serif;
       text-align: center;
       font-weight: bold;
-      font-size: 11px;
-      
+      font-size: 11px;   
+    }
+
+    .courses, .about {
+      text-decoration: none;
     }
 
     .nav-title {
