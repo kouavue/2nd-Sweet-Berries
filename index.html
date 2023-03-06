@@ -45,6 +45,7 @@
           <path d="M105.438 29.6672H106.433V21.4489H105.438V29.6672Z" fill="black"/>
           </svg>
           
+
       </div>
     </div>
     <button class="nav-button">
@@ -55,7 +56,12 @@
       <path d="M5 8H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M5 24H27" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
-      
+      <script>
+        const mySvg = document.querySelector('vector');
+        mySvg.addEventListener('click', () => {
+          mySvg.querySelector('rect').setAttribute('fill', 'blue');
+        });
+      </script>
   
   
 </nav>
