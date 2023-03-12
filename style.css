@@ -1,3 +1,18 @@
+/* You shouldn't have all your css in media queries. 
+You should have your CSS for desktop outside of media quesries
+then have a media query for tablet sized devices and one for mobile devices.
+Right now you have a lot of duplicated code and this is a problem because if you
+want to change something, you have to change it 3 times. */
+
+
+/* CSS Grid and Flexbox haven’t been used together.
+Make the main layout to be a Grid so that you can practice using Grid and flex box together and have a better layout. */
+
+
+/* You haven't used Grid template areas.
+This is a requirement in the rubric. */
+
+/* Great work on showing the hamburger menu on mobile devices, however it is not a functional hamburger menu. */
 @media only screen and (min-width: 1024px) {
 
 html {
@@ -166,6 +181,9 @@ html {
   font-weight: bold;
   font-size: 24px;
 }
+/* Even-though it looks like you achieved placing the logo above the card, it is not the proper way.
+You should give the icon a position of absolute, this will bring the icon out of the document flow.
+Then you need to give the card a position of relative in order for the icon to be placed in relative to the card. */
 .card-2 p:nth-child(2), .card-3 p:nth-child(2), .card-4 p:nth-child(2), 
 .card-5 p:nth-child(2), .card-6 p:nth-child(2) {
   font-family: sans-serif;
@@ -665,6 +683,8 @@ footer {
       right: 10px;
     }
 
+    /* You are not using display flex correctly. 
+    You can control the flex-items using align-items, justify content and so on. */
   .discover {
    display: flex;
    flex-direction: column;
@@ -674,6 +694,8 @@ footer {
     display: grid;
     text-align: center;
   }
+
+  /* We have 2 fonts in the figma file but you only used one. */
   
   .discover-texts .text-1 {
     font-size: 40px; 
