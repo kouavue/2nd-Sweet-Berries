@@ -4,7 +4,17 @@ body {
 
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 1fr 7fr 1fr;
+  grid-template-columns: 1fr 1fr 7fr 2fr;
   text-align: center;
+}
+
+.svg-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1/;
 }
 
