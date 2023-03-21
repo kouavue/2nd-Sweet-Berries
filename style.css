@@ -1,11 +1,12 @@
-body {
+/* body {
   display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 1fr 7fr 2fr;
-  text-align: center;
+  grid-column: 1/-1;
+
 }
 
 .svg-icon {
@@ -13,8 +14,29 @@ body {
   justify-content: center;
 }
 
-.intro {
+.intro-container {
   display: grid;
-  grid-template-columns: 1/;
+  grid-template-columns: repeat(8, 1fr);
+} */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
+.navbar {
+  grid-column: 1/-1;
+}
+
+.intro-container {
+  grid-column: ;
+}
+
+.intro {
+  grid-column: 1/2;
+  background-color: green;
+}
+
+.picture {
+  background-color: orange;
+}
