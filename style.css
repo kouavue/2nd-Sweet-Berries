@@ -22,9 +22,13 @@ html {
   padding-right: 20px;
 }
 
-@media (max-width: 468px) { 
 .hamburger-icon {
   display: none;
+}
+
+@media (max-width: 468px) { 
+.hamburger-icon {
+  
 }
 .menu {
   display: none;
@@ -44,6 +48,7 @@ html {
   background-color: black;
   align-self: center;
   padding: 15px;
+  width: fit-content;
 }
 
 .intro {
