@@ -22,14 +22,14 @@ html {
   padding-right: 20px;
 }
 
-.hamburger-icon {
-  display: none;
-}
+
 
 @media (max-width: 468px) { 
-.hamburger-icon {
-  
-}
+
+  .hamburger-icon {
+    display: none;
+  }
+
 .menu {
   display: none;
 }
