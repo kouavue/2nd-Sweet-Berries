@@ -22,6 +22,16 @@ html {
   padding-right: 20px;
 }
 
+@media (max-width: 468px) { 
+.hamburger-icon {
+  display: none;
+}
+.menu {
+  display: none;
+}
+
+}
+
 .svg-icon {
   display: flex;
   justify-content: center;
