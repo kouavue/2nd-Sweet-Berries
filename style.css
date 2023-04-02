@@ -13,10 +13,10 @@ html {
   grid-template-columns: repeat(8, 1fr);
 }
 
-.header {
+/* .header {
   display: grid;
   grid-column: 1/-1;
-}
+} */
 
 .navbar {
   display: flex;
@@ -43,16 +43,48 @@ html {
   margin-left: 10px;
 }
 
-@media (max-width: 468px) { 
 
-  .hamburger-icon {
-    display: block;
-  }
 
-.menu, button {
-  display: none;
+.hamburger-icon {
+  display: ;
 }
+
+#hamburger {
+  display: ;
 }
+
+#hamburger:checked + .menu{
+  display: block;
+  background: black;
+}
+
+/* @media (max-width: 468px) { 
+
+    .hamburger-icon {
+      display: block;
+    }
+
+    .nav-button {
+      display: none;
+    }
+
+    #hamburger:checked + .menu{
+      display: block;
+      background: black;
+    }
+
+    .menu {
+      position: absolute;
+      top: 75px;
+      background-color: red;
+      menu
+    }
+
+    .menu {
+      display: none;
+    }
+} */
+
 
 
 .svg-icon-1 {
