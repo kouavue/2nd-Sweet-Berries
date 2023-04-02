@@ -13,6 +13,10 @@ html {
   grid-template-columns: repeat(8, 1fr);
 }
 
+.header {
+  display: grid;
+  grid-column: 1/-1;
+}
 
 .navbar {
   display: flex;
@@ -39,15 +43,15 @@ html {
   margin-left: 10px;
 }
 
-@media (min-width: 468px) { 
+@media (max-width: 468px) { 
 
   .hamburger-icon {
-    display: none;
+    display: block;
   }
 
-/* .menu {
+.menu, button {
   display: none;
-} */
+}
 }
 
 
