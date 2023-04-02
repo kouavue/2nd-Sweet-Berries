@@ -10,49 +10,70 @@ html {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
 }
+
 
 .navbar {
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr 7fr 1fr;
+  display: flex;
+  flex-direction: row;
   grid-column: 1/-1;
-  text-align: center;
+  justify-content: space-between;
   margin-bottom: 100px;
-  padding-right: 20px;
+  margin-top: 20px;
+  margin-inline: 50px;
 }
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.courses {
+  text-decoration: none;
+  margin-right: 10px;
+}
 
+.about {
+  text-decoration: none;
+  margin-left: 10px;
+}
 
-@media (max-width: 468px) { 
+@media (min-width: 468px) { 
 
   .hamburger-icon {
     display: none;
   }
 
-.menu {
+/* .menu {
   display: none;
+} */
 }
 
+
+.svg-icon-1 {
+  display: flex;
+  justify-content: center;
 }
 
-.svg-icon {
+.svg-icon-2 {
   display: flex;
   justify-content: center;
 }
 
 .nav-button {
-  display: grid;
-  border-radius: 15px;
+  border-radius: 30px;
   color: white;
   background-color: black;
   align-self: center;
-  padding: 15px;
+  padding: 12px 16px;
   width: fit-content;
+  border: none;
+  margin-left: 32px;
 }
 
 .intro {
-  grid-column: 1/4;
+  grid-column: 1/5;
   margin: 0px 80px 0px 50px;
 }
 
@@ -62,13 +83,15 @@ html {
 }
 
 .intro p {
+  margin-top: 15px;
   font-size: 22px;
 }
 
 .picture {
-  grid-column: 4/-1;
-  background-color: black;
+  grid-column: 5/-1;
   margin: 0px 40px 0px -20px;
+  max-width: 600px;
+  max-height: 440px;
 }
 
 footer {
@@ -80,28 +103,50 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-column: 1/-1;
   grid-template-rows: repeat(2, 1fr);
-  row-gap: 80px;
+  row-gap: 50px;
   column-gap: 40px;
   margin: 50px;
+
 }
 
 .card-1 {
   display: flex;
   background-color: #FEBD2F;
   border-radius: 30px;
-  font-size: 40px;
-  padding-inline: 20px; 
-  /* height: 324px; */
+  font-size: 40px; 
+  padding: 40px 20px 20px 20px;
   width: 100%;
 }
 
 .card-2, .card-3, .card-4, .card-5, .card-6 {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 30px;
   font-size: 40px;
-  padding-inline: 20px;
-  /* height: 324px; */
+  padding: 40px 20px 20px 20px;
   width: 100%;
+  justify-content: space-between;
+  position: relative;
+
 }
 
+.cards-container p {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
 
+.cards-container button {
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #DCDCDC;
+  align-self: flex-start;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.cards-container svg {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+}
