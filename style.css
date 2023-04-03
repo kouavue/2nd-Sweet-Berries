@@ -147,7 +147,12 @@ footer {
   font-weight: bold;
 }
 
-.cards-container svg {
+/* .cards-container svg {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+} */
+.cards-container i {
   position: absolute;
   top: -40px;
   right: 20px;
