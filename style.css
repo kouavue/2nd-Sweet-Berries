@@ -108,6 +108,9 @@ footer {
   margin: 50px;
 }
 
+
+
+
 .card-1 {
   display: flex;
   background-color: #FEBD2F;
@@ -127,14 +130,12 @@ footer {
   width: 100%;
   justify-content: space-between;
   position: relative;
-
 }
 
 .cards-container p {
   font-size: 20px;
   padding-bottom: 10px;
-  font-style: italic;
-  font-family: ;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 .cards-container button {
@@ -147,6 +148,12 @@ footer {
 }
 
 .cards-container svg {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+}
+
+.cards-container img {
   position: absolute;
   top: -40px;
   right: 20px;
