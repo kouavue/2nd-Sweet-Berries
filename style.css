@@ -1,3 +1,4 @@
+/* We have 2 fonts in the figma file but you used none of the required ones. */
 *{
   margin: 0px;
   padding: 0px;
@@ -8,6 +9,9 @@ html {
   background-color: #F5F3EF;
 }
 
+/* You haven’t used Grid template areas in your project.
+
+You can use the grid template areas for the main layout where you can define where each section should be located such as the navbar, banner, card-container, footer */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
@@ -16,7 +20,7 @@ html {
 header {
   grid-column: 1/-1;
 }
-
+/* Beautiful work on using CSS Grid and flex box together! */
 .navbar {
   display: flex;
   flex-direction: row;
@@ -24,7 +28,7 @@ header {
   margin-bottom: 100px;
   margin-top: 20px;
 }
-
+/* Nice work on using Flexbox properly to create some of the components. */
 .menu {
   display: flex;
   flex-direction: row;
@@ -158,12 +162,14 @@ footer {
   right: 20px;
 }
 
+/* Great job on fixing this!
+This is now the proper way to place the icons onto the edge of the card. */
 .cards-container img {
   position: absolute;
   top: -40px;
   right: 20px;
 }
-
+/* Great work on making your project responsive using media queries properly! */
 @media (max-width: 768px) { 
     
   a {
@@ -213,6 +219,7 @@ footer {
 
 }
 
+/* Props to you for achieving this! Looks great and is functional! */
 @media (max-width: 390px) { 
     
  
